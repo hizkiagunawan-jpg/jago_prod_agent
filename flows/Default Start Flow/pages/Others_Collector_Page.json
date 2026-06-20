@@ -1,0 +1,56 @@
+{
+  "name": "c5e803be-a851-49f8-8062-9f627cfce53c",
+  "displayName": "Others_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please describe any other issues or complaints you are experiencing in detail so our team can assist you:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Silakan jelaskan kendala atau keluhan lain yang Kakak alami secara detail agar tim kami dapat membantu:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Others_Collector_Page",
+    "name": "31f8a727-9237-49a2-bed4-f5212ffaeddd"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "940d81b4-bbec-442a-8eb4-957d8bb2cf30"
+  } ]
+}

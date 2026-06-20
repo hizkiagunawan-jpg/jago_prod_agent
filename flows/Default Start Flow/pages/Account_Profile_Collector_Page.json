@@ -1,0 +1,56 @@
+{
+  "name": "d414bcd5-f0bb-492c-bb4b-94e7c6dbe056",
+  "displayName": "Account_Profile_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please explain the reason or detailed timeline regarding your account block or closure request:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon jelaskan alasan atau detail kronologi terkait permohonan pemblokiran atau penutupan rekening Anda:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Account_Profile_Collector_Page",
+    "name": "fd2bc23a-0286-4803-9274-2898c7d5377f"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "82af7546-50cd-49d3-a0b3-61aa6ff0b88b"
+  } ]
+}

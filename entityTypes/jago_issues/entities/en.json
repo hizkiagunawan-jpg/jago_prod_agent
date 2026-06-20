@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "transfer",
+    "synonyms": [ "bi-fast", "bifast", "gagal kirim", "gagal transfer", "kirim uang", "transfer" ],
+    "languageCode": "en"
+  }, {
+    "value": "qris",
+    "synonyms": [ "bayar qris", "qris", "scan qris", "transaksi qris" ],
+    "languageCode": "en"
+  }, {
+    "value": "card",
+    "synonyms": [ "card", "debit card", "kartu", "kartu fisik", "pengiriman kartu" ],
+    "languageCode": "en"
+  }, {
+    "value": "gojek",
+    "synonyms": [ "gofood", "gojek", "gopay", "jagopay" ],
+    "languageCode": "en"
+  }, {
+    "value": "security",
+    "synonyms": [ "akun terblokir", "locked", "login", "security", "terblokir", "tidak bisa login" ],
+    "languageCode": "en"
+  } ]
+}

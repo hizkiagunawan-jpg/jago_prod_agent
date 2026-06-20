@@ -1,0 +1,42 @@
+{
+  "name": "41ac0228-2298-40b4-bcea-a359e100b481",
+  "displayName": "Transfer_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Oh no, we are so sorry for the trouble! Jagoan completely understands how stressful a delayed transfer can be. Don't worry, Jagoan will immediately connect you to our Transfer \u0026 Payments specialist team to track your transaction in real-time. Please hold on a moment!" ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Operations",
+          "l1_product": "Fund_Transfer",
+          "l2_category": "Failed_Interbank_Transfer",
+          "sharia_parameter": "Sharia_Agnostic_Clearing"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Mohon maaf banget atas ketidaknyamanannya, Kak. Jagoan paham kalau masalah transferan belum masuk ini bikin khawatir. Tenang ya, Jagoan akan langsung hubungkan Kakak ke tim spesialis Transfer \u0026 Pembayaran untuk melacak transaksi Kakak secara real-time. Mohon ditunggu sebentar, ya." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Operations",
+          "l1_product": "Fund_Transfer",
+          "l2_category": "Failed_Interbank_Transfer",
+          "sharia_parameter": "Sharia_Agnostic_Clearing"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

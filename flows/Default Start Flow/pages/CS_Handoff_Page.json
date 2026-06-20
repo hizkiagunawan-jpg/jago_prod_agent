@@ -1,0 +1,58 @@
+{
+  "name": "20b59caa-0429-40a3-b2e6-1df1dc0f24ee",
+  "displayName": "CS_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Certainly! Your questions and issues will be addressed in detail by the Bank Jago Customer Service (CS) team. Please wait a moment while I connect you to an active agent." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "priority",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Siap Kak, pertanyaan dan kendala Kakak akan langsung dijawab secara detail oleh tim Customer Service (CS) Bank Jago. Mohon tunggu sebentar ya, saya sambungkan sekarang ke agen aktif." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "priority",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

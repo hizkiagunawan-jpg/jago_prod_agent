@@ -1,0 +1,42 @@
+{
+  "name": "964ee3ec-9576-4f64-afcc-21ac320bd431",
+  "displayName": "RDN_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I will forward this chat to an Investment Sharia RDN specialist to check your Stockbit account status or guide you through portfolio purification outside the Sharia Securities List (DES). Please wait." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Investment",
+          "l1_product": "RDN_Syariah",
+          "l2_category": "DES_Compliance_Liquidation",
+          "sharia_parameter": "Wadia_Yad_Dhamanah"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Saya akan meneruskan obrolan ini ke spesialis Investasi RDN Syariah untuk memeriksa status akun Stockbit Anda atau panduan pembersihan portofolio di luar Daftar Efek Syariah (DES). Mohon ditunggu." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Investment",
+          "l1_product": "RDN_Syariah",
+          "l2_category": "DES_Compliance_Liquidation",
+          "sharia_parameter": "Wadia_Yad_Dhamanah"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

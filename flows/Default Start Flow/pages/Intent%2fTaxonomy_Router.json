@@ -1,0 +1,341 @@
+{
+  "name": "c685d610-5042-4fec-b6c5-4803f69550e0",
+  "displayName": "Intent/Taxonomy_Router",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.chosen_issue = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ask_Issue_Page",
+    "name": "f58244ae-c98a-45d0-b24d-73148f908bae"
+  }, {
+    "condition": "$session.params.chosen_issue = card OR $session.params.chosen_issue = kartu",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "ta_cards"
+      }, {
+        "parameter": "sla_tag",
+        "value": "TA Cards::Debit Card Delivery"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "required_fields",
+        "value": "s2,s5,k9,d6,s16,d8,s24,k34,k35"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "42272b4d-1153-4cb0-80ef-0aaf822ee634"
+  }, {
+    "condition": "$session.params.chosen_issue = cdd",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla_tag",
+        "value": "KYC Admin::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "required_fields",
+        "value": "k13,k26,s24"
+      } ]
+    },
+    "targetPage": "CDD_Collector_Page",
+    "name": "8126b31d-f2cc-4285-9de2-c41a84c3055e"
+  }, {
+    "condition": "$session.params.chosen_issue = cs",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "priority"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k31"
+      } ]
+    },
+    "targetPage": "CS_Collector_Page",
+    "name": "42e56bd4-85e8-493d-9381-1255161b7e2e"
+  }, {
+    "condition": "$session.params.chosen_issue = dispute",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "dispute_L1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k31"
+      } ]
+    },
+    "targetPage": "Dispute_Collector_Page",
+    "name": "f4bcdc65-8753-46d5-a73d-fc52aa4f82b5"
+  }, {
+    "condition": "$session.params.chosen_issue = fraud",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::2H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k31"
+      } ]
+    },
+    "targetPage": "Fraud_Collector_Page",
+    "name": "c4cbf5ac-9a06-4a64-8ddc-0978d50c88bb"
+  }, {
+    "condition": "$session.params.chosen_issue = it_helpdesk",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "tech_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::4H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "IT_Helpdesk_Collector_Page",
+    "name": "ed1b9013-ba0f-4477-b09a-fb7898ef3c70"
+  }, {
+    "condition": "$session.params.chosen_issue = kyc",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "kyc_team"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k31"
+      } ]
+    },
+    "targetPage": "KYC_Collector_Page",
+    "name": "7d717200-9a1f-4df2-9021-67e3d9424c79"
+  }, {
+    "condition": "$session.params.chosen_issue = onboarding",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "onboarding_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::24H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k31"
+      } ]
+    },
+    "targetPage": "Onboarding_Collector_Page",
+    "name": "35ecaa57-2aba-46b9-a906-94eb8a9670fa"
+  }, {
+    "condition": "$session.params.chosen_issue = third_party_integration",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "partner_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Partner SLA::Ecosystem"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::24H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k26"
+      } ]
+    },
+    "targetPage": "Third_Party_Collector_Page",
+    "name": "0ceeb1ef-8a81-4920-a035-4d17305b101a"
+  }, {
+    "condition": "$session.params.chosen_issue = account_profile",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "kyc_team"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Operational Account SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::48H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "Account_Profile_Collector_Page",
+    "name": "567f7b68-1ba9-41df-b683-6b8e67bcae71"
+  }, {
+    "condition": "$session.params.chosen_issue = app_login",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "tech_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "App SLA::Authentication"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::1H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "App_Login_Collector_Page",
+    "name": "2aef19fa-cd58-4b11-a2bc-0c92a2de6f4b"
+  }, {
+    "condition": "$session.params.chosen_issue = deposit_saving",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "priority"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal Core SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "Deposit_Saving_Collector_Page",
+    "name": "e0e91001-a98f-4c46-a67f-5f87e81ff2a8"
+  }, {
+    "condition": "$session.params.chosen_issue = kyc_verification_onboard",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla_tag",
+        "value": "KYC Admin::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "required_fields",
+        "value": "k13,s24"
+      } ]
+    },
+    "targetPage": "KYC_Verification_Collector_Page",
+    "name": "c3ea01dd-4a1c-46fe-be1c-30a02854f1b9"
+  }, {
+    "condition": "$session.params.chosen_issue = loan_credit",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "partner_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Partner Funding SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::24H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "Loan_Credit_Collector_Page",
+    "name": "88c0752e-42ee-42a3-94e4-f8ec50e6bbd1"
+  }, {
+    "condition": "$session.params.chosen_issue = promotion_rewards",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "priority"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal Campaign SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "Promotion_Rewards_Collector_Page",
+    "name": "69a492f5-b433-46f6-ac95-a076b8e94f33"
+  }, {
+    "condition": "$session.params.chosen_issue = transfer_payment",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla_tag",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24,k31"
+      } ]
+    },
+    "targetPage": "Transfer_Payment_Collector_Page",
+    "name": "2ac56186-f345-437c-a3bb-2416d3ee79cb"
+  }, {
+    "condition": "$session.params.chosen_issue = others",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "group_code",
+        "value": "priority"
+      }, {
+        "parameter": "sla_tag",
+        "value": "General Triage SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "required_fields",
+        "value": "s24"
+      } ]
+    },
+    "targetPage": "Others_Collector_Page",
+    "name": "77ef0751-df03-490d-9415-2e598d069e87"
+  } ]
+}

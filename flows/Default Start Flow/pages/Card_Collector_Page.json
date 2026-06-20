@@ -1,0 +1,384 @@
+{
+  "name": "e63c62e6-5522-4f66-ba07-61d04ae222df",
+  "displayName": "Card_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s2_additional_info_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s2\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please provide additional details regarding your card delivery issue:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon berikan informasi tambahan terkait laporan pengiriman kartu Anda:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s5_awb_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s5\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please enter your card delivery tracking number (AWB):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon masukkan nomor resi (AWB) pengiriman kartu Kakak:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k9_courier_slot",
+      "required": true,
+      "entityType": "@jago_entity_courier",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k9\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select your delivery courier (JNT / Ninja / Sicepat):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Silakan pilih kurir pengiriman kartu Kakak (JNT / Ninja / Sicepat):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d6_follow_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"d6\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "What was the follow-up date of your previous report?" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Kapan tanggal tindak lanjut (Follow Up Date) dari laporan sebelumnya dilakukan?" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s16_location_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s16\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please provide the complete delivery address for your card:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon sebutkan lokasi atau alamat lengkap pengiriman kartu Kakak:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d8_pickup_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"d8\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please specify your preferred document or card pick-up date:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon tentukan tanggal penjemputan (Pick up Date) dokumen atau kartu Kakak:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please write any additional notes or specific details about your card issue:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Silakan tuliskan catatan tambahan atau keluhan detail Kakak mengenai kendala kartu ini:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k34_sub_card_delivery_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_card",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k34\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select your delivery issue status: Card Not Arrived - Over SLA." ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih status kendala pengiriman kartu Kakak: Kartu Belum Sampai-Over SLA." ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k35_sub_card_report_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_card",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k35\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select your card reporting reason: Lost Card or Customer Outbound Call." ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih alasan pelaporan kartu Anda: Lost Card atau Outbound Call Customer." ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s2\") AND $page.params.s2_additional_info_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s2_additional_info_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "812c380f-ef71-4595-b50b-8f164712d64b"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s5\") AND $page.params.s5_awb_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s5_awb_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "fb8b893d-8005-43f4-867f-670f2550f1bf"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k9\") AND $page.params.k9_courier_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k9_courier_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "7b12a30e-5156-4888-9e0f-4a937cb01ba5"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"d6\") AND $page.params.d6_follow_up_date_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "d6_follow_up_date_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "63e197bf-4682-469e-8ace-d60f1f8dcc78"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s16\") AND $page.params.s16_location_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s16_location_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "b06b7c72-f1aa-4cd4-89ca-1de708bba1d3"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"d8\") AND $page.params.d8_pickup_date_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "d8_pickup_date_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "97019e53-d3c0-4740-b5c0-22694f2b2568"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "8459ba01-0e49-435b-b86a-036d4d235abc"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k34\") AND $page.params.k34_sub_card_delivery_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k34_sub_card_delivery_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "026d8a59-c2c4-4f6c-ae06-6ae52d5095ef"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k35\") AND $page.params.k35_sub_card_report_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k35_sub_card_report_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Card_Collector_Page",
+    "name": "7c0ef77d-9002-4985-9171-e3b841268df7"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s2_additional_info",
+        "value": "$page.params.s2_additional_info_slot"
+      }, {
+        "parameter": "s5_awb",
+        "value": "$page.params.s5_awb_slot"
+      }, {
+        "parameter": "k9_courier",
+        "value": "$page.params.k9_courier_slot"
+      }, {
+        "parameter": "d6_follow_up_date",
+        "value": "$page.params.d6_follow_up_date_slot"
+      }, {
+        "parameter": "s16_location",
+        "value": "$page.params.s16_location_slot"
+      }, {
+        "parameter": "d8_pickup_date",
+        "value": "$page.params.d8_pickup_date_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k34_sub_card_delivery",
+        "value": "$page.params.k34_sub_card_delivery_slot"
+      }, {
+        "parameter": "k35_sub_card_report",
+        "value": "$page.params.k35_sub_card_report_slot"
+      } ]
+    },
+    "targetPage": "Card_Handoff_Page",
+    "name": "214130f9-47dc-42d7-9f97-6902bc3c9f58"
+  } ]
+}

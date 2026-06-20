@@ -1,0 +1,56 @@
+{
+  "name": "39518ece-f65e-4859-87ae-fe74bd12c43d",
+  "displayName": "Loan_Credit_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please describe the details of your loan application issue, Jago Gocuan credit limit, or billing payment problem:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon deskripsikan detail kendala pengajuan pinjaman, limit kredit Jago Gocuan, atau masalah pelunasan tagihan:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Loan_Credit_Collector_Page",
+    "name": "2a609048-1097-40b9-8d48-573e960c1d07"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "Partner_Handoff_Page",
+    "name": "f059b684-874a-4723-9c38-2f9ea114b010"
+  } ]
+}

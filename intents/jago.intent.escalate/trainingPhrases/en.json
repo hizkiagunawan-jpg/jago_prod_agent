@@ -1,0 +1,1889 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "account",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " got hacked or accessed unauthorizedly by strangers"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "system won't let me do transaction due to "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " penalty rule"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "balance "
+    }, {
+      "text": "locked",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " and "
+    }, {
+      "text": "account",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " restricted from making outbound "
+    }, {
+      "text": "transfers",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to reactivate my "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pocket within the app screen"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my pocket is "
+    }, {
+      "text": "locked",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " due to an "
+    }, {
+      "text": "inactive",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": "/"
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " status flag"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the app crashed during "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment processing"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot submit sedekah/donation money via "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "zakat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment transaction failed on the checkout step"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to dispatch thr cash gifts via "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " feature"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the recipient cannot claim the cash gift from jadi."
+    }, {
+      "text": "jago.com",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " link"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " distribution link domain is broken"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the system blocked my friend from accepting the "
+    }, {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " invitation"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "collaborator member cannot spend money from our "
+    }, {
+      "text": "joint pocket",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot send invitations to join my "
+    }, {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " members"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "error synchronization token between jago and "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " pocket cash balance cannot be withdrawn out"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to open investor account "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " from the brokerage side"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot link my sharia rdn to the "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " platform"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the app won't let me close my active "
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " syariah pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "system error during "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " creation pipeline setup"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot liquidate my term "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " early via the app interface"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "error when trying to open a new sharia "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "error setting up my "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pin number"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my visa "
+    }, {
+      "text": "card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " got swallowed by a third party atm machine"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot track my "
+    }, {
+      "text": "physical debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " shipping courier status"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "physical card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " activation failed in the app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is lost block it immediately"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " connection status is broken or disconnected automatically"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to link my spending pocket for goride/"
+    }, {
+      "text": "gofood",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " orders"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment method setup is throwing an authentication error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "error linking jago syariah pocket inside the "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot connect my jago account to "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the terminal rejected my application "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " scan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "problem with "
+    }, {
+      "text": "qris transaction dispute",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " report entry"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "scanned the qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " code but nothing happened/error code popped up"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "balance deducted but the merchant said my "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " transaction failed"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment failed at the store"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " to another bank re-trying keeps throwing an error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "why is my "
+    }, {
+      "text": "bi-fast",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " stuck?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i cannot transfer money to my other bank "
+    }, {
+      "text": "account",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I cannot "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " my money"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is failed could you help?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have a problem, I cannot "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " my money"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tracking status for my physical jago "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " delivery is not moving"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to request a new jago sharia digital "
+    }, {
+      "text": "card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " on the dashboard"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "change my jago "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pin code directly from the mobile app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my jago "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " was swallowed by another bank atm terminal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "order a new physical jago sharia "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " to replace my old one"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "changing my registered phone number to an "
+    }, {
+      "text": "overseas",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " line requires a "
+    }, {
+      "text": "physical stamp",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "check business hours for the "
+    }, {
+      "text": "skn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": "rtgs",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " transaction clearing rails"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to reactivate my "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pocket after months of "
+    }, {
+      "text": "inactivity",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "passive pocket",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " penalty fee of ten thousand rupiah charged to my main pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my bank jago "
+    }, {
+      "text": "account",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " was auto deleted due to a six month empty balance"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to generate a tax deduction receipt for my "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " charity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "setting up a recurring automated sedekah donation via "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my haul constraint calculation for "
+    }, {
+      "text": "zakat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " maal on "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is wrong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to sync my "
+    }, {
+      "text": "zakat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment proof with my rumah "
+    }, {
+      "text": "zakat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " profile"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the "
+    }, {
+      "text": "zakat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " maal calculation on "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is different from "
+    }, {
+      "text": "baznas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my unclaimed "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " cash award was automatically canceled"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the jadi "
+    }, {
+      "text": "jago com",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " claim link returned an error when clicked"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "friend hasn't claimed the "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " balance can i revoke it"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to cancel a cash gift transaction inside the "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the link for jadi "
+    }, {
+      "text": "jago com",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " expired before my friend claimed it"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the invitation link to join the "
+    }, {
+      "text": "sharia shared pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " keeps expiring"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " daily transaction limit hit the "
+    }, {
+      "text": "10 million"
+    }, {
+      "text": " ceiling"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i cannot join a conventional pocket because my "
+    }, {
+      "text": "account",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is sharia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to remove a member from my jago "
+    }, {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "fund transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " from main pocket to investment "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " returned an error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "sharia "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " account verification is pending for too long"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " balance is not showing up on my stockbit application dashboard"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to cleanse my "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " rdn portfolio from non sharia assets"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "non des stock blocked in my sharia rdn "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " account"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to create a new "
+    }, {
+      "text": "mudharabah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " muthlaqah term "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to extend the sharia "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " maturity instruction layout"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "is there an early liquidation fee for my jago "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my profit sharing calculation for mudharabah "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " looks low"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to turn off aro plus for my sharia "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "received a connection error when paying "
+    }, {
+      "text": "gofood",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " with jago pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " account was automatically unlinked from "
+    }, {
+      "text": "bank"
+    }, {
+      "text": " jago"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " balance is not syncing with my jago syariah profile"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to change the primary pocket for "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tabungan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the app camera crashed when trying to "
+    }, {
+      "text": "scan a qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " code"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "money debited but merchant didn't receive my "
+    }, {
+      "text": "qris"
+    }, {
+      "text": " "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "jago "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment timed out while processing at the store"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " double deduction issue on my transaction history"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "scan qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " failed at the checkout counter"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot withdraw money using jago "
+    }, {
+      "text": "card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " at atm"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "physical card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " delivery status tracking issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my jago "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is blocked how to open it"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my bank jago "
+    }, {
+      "text": "account",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " turned "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " automatically"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to update my "
+    }, {
+      "text": "mobile number",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " using an "
+    }, {
+      "text": "overseas",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " account core form"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my pocket is charged an "
+    }, {
+      "text": "inactive",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " fee"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "zakat",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " nisab calculation dispute on "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "generating a tax receipt for my "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " charity donation"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to pay my "
+    }, {
+      "text": "zakat",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " through "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot claim money from cash "
+    }, {
+      "text": "gift pocket",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " link"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to cancel an expired "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " link"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the "
+    }, {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " web link is broken"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to invite friends to my "
+    }, {
+      "text": "sharia shared pocket",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "members cannot spend money from the "
+    }, {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "adjusting the daily limit for my "
+    }, {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "sharia",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " activation error on stockbit"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot deposit money into my "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " account"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my sharia rdn portfolio contains non des "
+    }, {
+      "text": "securities",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "liquidating "
+    }, {
+      "text": "mudharabah",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " before maturity date"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to change the maturity option for my "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to close my sharia "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " early"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "interbank transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " failed but balance decreased"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the bank "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " returned an error code"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "fund transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is stuck and hasn't arrived"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "failed to connect my sharia pocket to "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "payment failed using "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " pocket link"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i cannot link my jago account to the "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "money deducted but "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " transaction uncompleted"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " barcode payment failed at shop"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "having a major issue with a "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " merchant transaction"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment was declined but my balance was deducted"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "account core",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " status active issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "gifting pocket",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " link broken"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " account problem"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " linkage error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is not working"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "problem with "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "issue with "
+    }, {
+      "text": "shared pocket",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "error with my "
+    }, {
+      "text": "deposit",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " is having issues"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i have a problem with "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment failed"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "got a problem with "
+    }, {
+      "text": "QRIS",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " payment"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have a problem with my "
+    }, {
+      "text": "QRIS",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " transaction"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a human specialist my bank jago app says "
+    }, {
+      "text": "blocked account",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Connect me to fraud department there is a "
+    }, {
+      "text": "suspicious activity",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " on my pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Call support representative to change my "
+    }, {
+      "text": "lost phone number",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " data"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Speak to a real human I "
+    }, {
+      "text": "cannot login",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " to my jago application"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Transfer me to a live agent my "
+    }, {
+      "text": "account is locked",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " out"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Call representative my linked "
+    }, {
+      "text": "gojek account",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " is bugged"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Transfer to live customer service cannot pay "
+    }, {
+      "text": "gofood",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " using jago pocket"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Talk to a person because "
+    }, {
+      "text": "jagopay",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " failed on gojek application"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Connect me to cs regarding "
+    }, {
+      "text": "gopay pocket",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " linking error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need human support for my linked "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " transaction problem"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Speak to representative about "
+    }, {
+      "text": "physical debit card",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " courier details"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Transfer this chat to staff regarding "
+    }, {
+      "text": "card delivery tracking",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need human support my "
+    }, {
+      "text": "jago card package",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " hasn't arrived for weeks"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Connect me to live agent to track my "
+    }, {
+      "text": "physical card",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " shipping"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Talk to real person about my "
+    }, {
+      "text": "debit card",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " delivery status"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Speak to support regarding "
+    }, {
+      "text": "qris error",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " wallet balance decreased"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Transfer to live person because "
+    }, {
+      "text": "paying with qris",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " thrown an error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Call agent for my "
+    }, {
+      "text": "qris transaction dispute",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " double deduction"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to speak to a real human about "
+    }, {
+      "text": "failed qris scan",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " at merchant"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Connect me to CS for "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Call customer service regarding "
+    }, {
+      "text": "failed transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " pocket balance dropped"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Transfer this chat to human my "
+    }, {
+      "text": "fund transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " failed but money deducted"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Talk to live support about "
+    }, {
+      "text": "interbank transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " failure"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Connect me to a real person my "
+    }, {
+      "text": "bi-fast",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " transaction is pending"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I still cannot solve my issue for "
+    }, {
+      "text": "transfer failed",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " I need to talk to human"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Live chat support."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Human assistant please."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Transfer to customer care please."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I speak to a real person?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to talk to "
+    }, {
+      "text": "Jago"
+    }, {
+      "text": " customer specialist."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Talk to live agent."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Connect me to customer service."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Speak to human agent please."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

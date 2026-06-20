@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Batal Pengiriman",
+    "synonyms": [ "batal kirim", "Batal Pengiriman", "batalkan", "cancel kirim", "tidak jadi dikirim" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gagal Dikirim",
+    "synonyms": [ "delivery failed", "Gagal Dikirim", "gagal kirim", "gagal sampai", "undelivered" ],
+    "languageCode": "id"
+  }, {
+    "value": "Saldo Terpotong Uang Belum Masuk",
+    "synonyms": [ "saldo kepotong", "Saldo Terpotong Uang Belum Masuk", "terpotong tapi gagal", "transfer gagal tapi saldo berkurang", "uang belum masuk" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gagal Registrasi",
+    "synonyms": [ "error pendaftaran", "form error", "gagal onboarding", "Gagal Registrasi", "registrasi gagal" ],
+    "languageCode": "id"
+  }, {
+    "value": "Blokir Darurat",
+    "synonyms": [ "Blokir Darurat", "emergency block", "freeze akun", "kunci rekening", "tutup sementara" ],
+    "languageCode": "id"
+  } ]
+}

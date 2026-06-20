@@ -1,0 +1,54 @@
+{
+  "name": "c7de2ee1-74bb-46fe-b068-85f623642b1c",
+  "displayName": "Ask_Issue_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "chosen_issue",
+      "required": true,
+      "entityType": "@jago_issues",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "Sorry Jagoan, that issue is not on the menu. Please retype your issue specifically (Example: Failed Transfer, QRIS, Card Issue, Gojek, or Account Security)." ]
+              },
+              "languageCode": "en"
+            }, {
+              "text": {
+                "text": [ "Maaf Jagoan, masalah tersebut tidak ada di menu. Silakan ketik kembali masalah Anda secara spesifik (Contoh: Gagal Transfer, QRIS, Masalah Kartu, Gojek, atau Keamanan Akun)." ]
+              },
+              "languageCode": "id"
+            } ]
+          },
+          "name": "2a8ccee3-13d4-4855-bf87-c234eef378ab"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Alright, let me connect you to our Customer Service team. To ensure you reach the right specialist, what is your current issue about?\n1. QRIS Transactions or Disputes\n2. Gojek Ecosystem Integration\n3. Failed Fund Transfers\n4. Sharia Term Deposits\n5. Sharia RDN / Stockbit\n6. Shared Pocket\n7. Gifting Pocket\n8. Jago Amal\n9. Debit Card Management \u0026 Delivery\n10. Inactive or Dormant Account Status\n11. Account Security" ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik, Jagoan bantu hubungkan ke tim CS ya. Supaya tidak salah sambung, kendala Kakak saat ini terkait apa?\n1. Transaksi atau Sanggahan QRIS\n2. Ekosistem Gojek\n3. Gagal Transfer\n4. Deposito Syariah\n5. RDN Syariah / Stockbit\n6. Kantong Bersama\n7. Kantong Berbagi\n8. Jago Amal\n9. Manajemen \u0026 Pengiriman Kartu\n10. Status Akun Pasif / Dormant\n11. Keamanan Akun" ]
+      },
+      "languageCode": "id"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.chosen_issue != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent/Taxonomy_Router",
+    "name": "7e00aad5-6695-42da-9a75-b539ab720391"
+  } ]
+}

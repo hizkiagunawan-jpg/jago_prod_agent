@@ -1,0 +1,56 @@
+{
+  "name": "ce099d9c-65e4-4298-9213-b5ee2c67bf9a",
+  "displayName": "Deposit_Saving_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please explain the detailed issue regarding your Saving Pocket, Vault (Deposit), or interest calculation:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon jelaskan detail kendala terkait Kantong Tabungan, Kantong Berjangka (Deposit), atau perhitungan bunga Anda:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Deposit_Saving_Collector_Page",
+    "name": "92875566-5af8-4794-9b99-c3605023edaf"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "726874f2-e822-4c0e-96e3-ccc9ee2bec7d"
+  } ]
+}

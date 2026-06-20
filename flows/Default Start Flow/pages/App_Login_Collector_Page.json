@@ -1,0 +1,56 @@
+{
+  "name": "76e785c1-4a3d-4f52-9190-a08289679c79",
+  "displayName": "App_Login_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please state the error message shown during login failure, OTP issues, or device linking problems:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon infokan pesan error yang muncul saat gagal login, kendala OTP, atau masalah tautan perangkat (device linking):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "App_Login_Collector_Page",
+    "name": "331dd4b4-4d5f-424b-8b0d-3247bb32a4a0"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "IT_Helpdesk_Handoff_Page",
+    "name": "28707447-3d28-479c-a04d-bfa3c62e0b05"
+  } ]
+}

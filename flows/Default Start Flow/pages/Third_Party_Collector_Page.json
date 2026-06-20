@@ -1,0 +1,97 @@
+{
+  "name": "4a0d6931-3c96-4590-a0a0-d4aa4bc61bf6",
+  "displayName": "Third_Party_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k26\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select the ecosystem partner application encountering issues (Bibit / Gojek / Tokopedia / RDN):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih aplikasi mitra ekosistem yang sedang berkendala (Bibit / Gojek / Tokopedia / RDN):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please describe the issue with account synchronization, balance syncing, or pocket integration with our partner:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon deskripsikan kendala sinkronisasi akun, saldo, atau integrasi kantong dengan mitra tersebut:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k26\") AND $page.params.k26_partner_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k26_partner_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Third_Party_Collector_Page",
+    "name": "cedf8980-7e3c-49dd-853a-9ac49f319bc5"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Third_Party_Collector_Page",
+    "name": "f2c3b9f1-f9af-412a-8d9d-c87d5dd1d9dd"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "Partner_Handoff_Page",
+    "name": "484e21d5-b174-4c9b-b511-97a43874bc88"
+  } ]
+}

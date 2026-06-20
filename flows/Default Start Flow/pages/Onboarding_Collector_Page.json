@@ -1,0 +1,97 @@
+{
+  "name": "cfed09c2-e905-4364-809d-5f8d6889d574",
+  "displayName": "Onboarding_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please describe the specific obstacle you encountered during your initial Bank Jago account registration:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon jelaskan detail hambatan yang Kakak alami saat melakukan proses registrasi awal akun Bank Jago:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k31\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select the registration form error type appearing on your screen:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih jenis kegagalan form pendaftaran yang muncul di layar:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Onboarding_Collector_Page",
+    "name": "9c0c5795-0445-4b48-9a67-8f3cc931fa76"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k31\") AND $page.params.k31_result_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k31_result_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Onboarding_Collector_Page",
+    "name": "fba89141-913b-47d6-be51-9db4df475f6b"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      } ]
+    },
+    "targetPage": "Onboarding_Handoff_Page",
+    "name": "203f4839-d1b0-49c5-8d93-d830ffef1a4a"
+  } ]
+}

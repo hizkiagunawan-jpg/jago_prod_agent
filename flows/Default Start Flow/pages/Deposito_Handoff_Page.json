@@ -1,0 +1,42 @@
+{
+  "name": "f4e0228d-c965-47e6-b1a2-ee7b8af7081d",
+  "displayName": "Deposito_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Alright Jagoan, I will connect you to the Sharia Wealth Management team to help modify your maturity instructions (ARO) or liquidate your Mudharabah Muthlaqah deposit without penalty fees. Please hold on a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Wealth",
+          "l1_product": "Deposito_Syariah",
+          "l2_category": "Mudharabah_Maturity_Modification",
+          "sharia_parameter": "Mudharabah_Muthlaqah"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik Jagoan, saya akan menghubungkan Anda ke tim Wealth Management Syariah untuk membantu modifikasi instruksi jatuh tempo (ARO) atau pencairan deposito Mudharabah Muthlaqah Anda tanpa biaya penalti. Mohon tunggu sebentar." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Wealth",
+          "l1_product": "Deposito_Syariah",
+          "l2_category": "Mudharabah_Maturity_Modification",
+          "sharia_parameter": "Mudharabah_Muthlaqah"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

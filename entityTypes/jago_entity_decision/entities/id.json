@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Blocked",
+    "synonyms": [ "akun diblokir", "block", "Blocked", "blokir", "rekening diblokir" ],
+    "languageCode": "id"
+  }, {
+    "value": "Declined",
+    "synonyms": [ "decline", "Declined", "ditolak", "pendaftaran ditolak", "reject" ],
+    "languageCode": "id"
+  }, {
+    "value": "KTP BO",
+    "synonyms": [ "ktp back office", "ktp bo", "KTP BO", "ktp salah", "masalah ktp" ],
+    "languageCode": "id"
+  } ]
+}

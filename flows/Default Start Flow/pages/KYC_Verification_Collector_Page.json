@@ -1,0 +1,97 @@
+{
+  "name": "89139cc4-4b4d-4483-95ff-a4d5000438ee",
+  "displayName": "KYC_Verification_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "k13_decision_slot",
+      "required": true,
+      "entityType": "@jago_entity_decision",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k13\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select the issue status for your video call verification or Dukcapil data failure:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Silakan pilih status kendala verifikasi video call atau kegagalan sistem data Dukcapil Anda:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please provide the complete timeline of the issues encountered with facial verification or e-KTP checks during account eligibility review:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon jabarkan kronologi lengkap hambatan verifikasi wajah atau e-KTP saat verifikasi kelayakan akun:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k13\") AND $page.params.k13_decision_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "KYC_Verification_Collector_Page",
+    "name": "ddd86e40-6a3c-4e57-8197-125788ed8f40"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "KYC_Verification_Collector_Page",
+    "name": "ca809592-decd-438b-87a7-8ec3b87dded3"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision",
+        "value": "$page.params.k13_decision_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "3cf60bfe-5309-4468-ac10-b02b71a4daf4"
+  } ]
+}

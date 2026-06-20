@@ -1,0 +1,2901 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " saya masalah",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "sy",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "bermasalah nih",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "duitnya",
+      "auto": true
+    }, {
+      "text": " tidak masuk padahal sudah ",
+      "auto": true
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "saya kok",
+      "auto": true
+    }, {
+      "text": " gagal",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "bermasalah",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "nih",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " saya gagal ",
+      "auto": true
+    }, {
+      "text": "nih",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saldo kantong utama kekunci gara-gara kelamaan "
+    }, {
+      "text": "pasif",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal reaktivasi akun "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " lewat verifikasi video call"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa mengaktifkan kembali kantong yang "
+    }, {
+      "text": "tidak aktif",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "rekening kantong saya",
+      "auto": true
+    }, {
+      "text": " mati suri/",
+      "auto": true
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " dibekukan sistem",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal pas pilih lembaga laz mitra ",
+      "auto": true
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa menyalurkan ",
+      "auto": true
+    }, {
+      "text": "dana sedekah",
+      "auto": true
+    }, {
+      "text": " lewat fitur ",
+      "auto": true
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transaksi bayar ",
+      "auto": true
+    }, {
+      "text": "zakat maal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " gagal terus pas verifikasi ",
+      "auto": true
+    }, {
+      "text": "pin",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "error pas klik ",
+      "auto": true
+    }, {
+      "text": "kirim uang",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " berbagi ke banyak kontak",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal membagikan ",
+      "auto": true
+    }, {
+      "text": "amplop thr",
+      "auto": true
+    }, {
+      "text": " digital lewat ",
+      "auto": true
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "penerima hadiah ",
+      "auto": true
+    }, {
+      "text": "gak",
+      "auto": true
+    }, {
+      "text": " bisa klaim duit lewat link ",
+      "auto": true
+    }, {
+      "text": "jadi.jago.com",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "link ",
+      "auto": true
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "bermasalah",
+      "auto": true
+    }, {
+      "text": "/",
+      "auto": true
+    }, {
+      "text": "rusak",
+      "auto": true
+    }, {
+      "text": " tidak bisa diakses",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "error pas mau ",
+      "auto": true
+    }, {
+      "text": "kick/ngeluarin",
+      "auto": true
+    }, {
+      "text": " orang dari ",
+      "auto": true
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "anggota ",
+      "auto": true
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " gagal pake ",
+      "auto": true
+    }, {
+      "text": "dana",
+      "auto": true
+    }, {
+      "text": " buat ",
+      "auto": true
+    }, {
+      "text": "belanja",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa ",
+      "auto": true
+    }, {
+      "text": "undang teman",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " masuk ke ",
+      "auto": true
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " saya",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "error pas registrasi ",
+      "auto": true
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " dari aplikasi sekuritas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "dana ",
+      "auto": true
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tidak bisa ditarik/withdrawal ke kantong ",
+      "auto": true
+    }, {
+      "text": "utama",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa menyambungkan ",
+      "auto": true
+    }, {
+      "text": "rdn syariah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ke ",
+      "auto": true
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kantong ",
+      "auto": true
+    }, {
+      "text": "deposito syariah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "macet",
+      "auto": true
+    }, {
+      "text": " pas mau ditutup",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "keluar alert error",
+      "auto": true
+    }, {
+      "text": " pas naruh modal awal di ",
+      "auto": true
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa mencairkan ",
+      "auto": true
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "syariah",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "saya",
+      "auto": true
+    }, {
+      "text": " lebih awal",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal pas mau buka kantong ",
+      "auto": true
+    }, {
+      "text": "deposito syariah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "baru",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "pin ",
+      "auto": true
+    }, {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " debit saya diblokir/error tidak bisa dipakai swipe",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "debit",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "tertelan",
+      "auto": true
+    }, {
+      "text": " di ",
+      "auto": true
+    }, {
+      "text": "mesin atm mandiri/bca",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa melacak ",
+      "auto": true
+    }, {
+      "text": "pengiriman kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " debit saya ke rumah",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal aktivasi ",
+      "auto": true
+    }, {
+      "text": "kartu fisik",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "jago",
+      "auto": true
+    }, {
+      "text": " yang baru sampai",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " debit saya hilang ",
+      "auto": true
+    }, {
+      "text": "tolong gembok/blokir",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "sekarang",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "error pas proses linking ",
+      "auto": true
+    }, {
+      "text": "akun jagoan",
+      "auto": true
+    }, {
+      "text": " ke ",
+      "auto": true
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ada kendala pas mau ",
+      "auto": true
+    }, {
+      "text": "sinkronisasi",
+      "auto": true
+    }, {
+      "text": " akun ",
+      "auto": true
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " sama ",
+      "auto": true
+    }, {
+      "text": "bank",
+      "auto": true
+    }, {
+      "text": " jago",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kenapa",
+      "auto": true
+    }, {
+      "text": " metode pembayaran ",
+      "auto": true
+    }, {
+      "text": "jago saya",
+      "auto": true
+    }, {
+      "text": " hilang/error di ",
+      "auto": true
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal menyambungkan kantong jago syariah buat bayar ",
+      "auto": true
+    }, {
+      "text": "gofood",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa hubungkan ",
+      "auto": true
+    }, {
+      "text": "jago",
+      "auto": true
+    }, {
+      "text": " ke aplikasi ",
+      "auto": true
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transaksi "
+    }, {
+      "text": "qr",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " code gagal tapi duit ilang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya mau komplain masalah sengketa ",
+      "auto": true
+    }, {
+      "text": "bayar qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "scan qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " error keluar notifikasi sistem bermasalah",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saldo sudah terpotong tapi ",
+      "auto": true
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " dibilang gagal sama merchant",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "bayar pakai ",
+      "auto": true
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " gagal terus di kasir",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kenapa saya tidak bisa ",
+      "auto": true
+    }, {
+      "text": "transfer antar bank",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "hari ini",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saldo",
+      "auto": true
+    }, {
+      "text": " berkurang tapi ",
+      "auto": true
+    }, {
+      "text": "transferan",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "dinyatakan",
+      "auto": true
+    }, {
+      "text": " gagal",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ada masalah pas mau ",
+      "auto": true
+    }, {
+      "text": "nyelesaiin",
+      "auto": true
+    }, {
+      "text": " transaksi ",
+      "auto": true
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "uang",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal kirim",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "dana",
+      "auto": true
+    }, {
+      "text": " lewat ",
+      "auto": true
+    }, {
+      "text": "bi-fast",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tidak bisa ",
+      "auto": true
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " uang keluar dari ",
+      "auto": true
+    }, {
+      "text": "kantong",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "saya",
+      "auto": true
+    }, {
+      "text": " gagal terus kenapa ya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "debit"
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    }, {
+      "text": " "
+    }, {
+      "text": "saya"
+    }, {
+      "text": " belum sampe rumah padahal udah "
+    }, {
+      "text": "seminggu"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "request digital "
+    }, {
+      "text": "card",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago syariah"
+    }, {
+      "text": " ditolak karena kuota limit "
+    }, {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " penuh"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "panduan ganti"
+    }, {
+      "text": " pin "
+    }, {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " debit jago langsung di aplikasi tanpa ke "
+    }, {
+      "text": "atm"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " debit jago saya ketelen "
+    }, {
+      "text": "mesin atm bank"
+    }, {
+      "text": " lain pas tarik tunai"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara buat "
+    }, {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " debit jago "
+    }, {
+      "text": "syariah baru"
+    }, {
+      "text": " yang fisik bukan digital"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau ganti "
+    }, {
+      "text": "nomor luar negeri",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tapi ga punya "
+    }, {
+      "text": "meterai",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "fisik"
+    }, {
+      "text": " "
+    }, {
+      "text": "sepuluh ribu"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "batasan jam operasional "
+    }, {
+      "text": "skn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "rtgs",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " bank jago sampai jam berapa ya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara mengaktifkan kembali "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " pocket saya yang mati"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "biaya penalti "
+    }, {
+      "text": "pocket pasif",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "sepuluh ribu"
+    }, {
+      "text": " "
+    }, {
+      "text": "rupiah"
+    }, {
+      "text": " per bulan motong dari mana"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "data bukti setor zakat "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "eror"
+    }, {
+      "text": " "
+    }, {
+      "text": "ga"
+    }, {
+      "text": " bisa kedownload"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau"
+    }, {
+      "text": " setting "
+    }, {
+      "text": "sedekah"
+    }, {
+      "text": " "
+    }, {
+      "text": "subuh"
+    }, {
+      "text": " "
+    }, {
+      "text": "rutin otomatis"
+    }, {
+      "text": " lewat "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "haul "
+    }, {
+      "text": "zakat maal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "belum"
+    }, {
+      "text": " "
+    }, {
+      "text": "terpenuhi"
+    }, {
+      "text": " "
+    }, {
+      "text": "di"
+    }, {
+      "text": " "
+    }, {
+      "text": "fitur"
+    }, {
+      "text": " "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara sinkronisasi bukti "
+    }, {
+      "text": "setor zakat"
+    }, {
+      "text": " "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ke "
+    }, {
+      "text": "rumah zakat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kalkulator "
+    }, {
+      "text": "zakat maal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "amal"
+    }, {
+      "text": " "
+    }, {
+      "text": "beda"
+    }, {
+      "text": " "
+    }, {
+      "text": "sama"
+    }, {
+      "text": " "
+    }, {
+      "text": "hitungan"
+    }, {
+      "text": " "
+    }, {
+      "text": "baznas",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "resmi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "hadiah uang "
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " hangus otomatis masuk ke mana ya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "web link "
+    }, {
+      "text": "jadi jago com",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "eror"
+    }, {
+      "text": " "
+    }, {
+      "text": "pas"
+    }, {
+      "text": " "
+    }, {
+      "text": "diklik"
+    }, {
+      "text": " "
+    }, {
+      "text": "sama"
+    }, {
+      "text": " "
+    }, {
+      "text": "temen"
+    }, {
+      "text": " "
+    }, {
+      "text": "saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kado "
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " belum dicairkan sama penerima mau saya tarik balik"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara batalin "
+    }, {
+      "text": "kado uang",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "di"
+    }, {
+      "text": " "
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "link klaim "
+    }, {
+      "text": "jadi jago com",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "kedaluwarsa"
+    }, {
+      "text": " padahal belum diambil temen"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kenapa"
+    }, {
+      "text": " link undangan masuk "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "hangus"
+    }, {
+      "text": " terus"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau ubah "
+    }, {
+      "text": "izin member"
+    }, {
+      "text": " "
+    }, {
+      "text": "bisa pakai",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " jadi "
+    }, {
+      "text": "bisa lihat",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " aja di "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "limit harian "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " kepentok plafon "
+    }, {
+      "text": "sepuluh juta rupiah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ga bisa gabung "
+    }, {
+      "text": "kantong konvensional",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " karena akun saya syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara hapus"
+    }, {
+      "text": " member dari "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "dana jago syariah"
+    }, {
+      "text": " gagal ditransfer ke "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " investasi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "verifikasi akun rdn "
+    }, {
+      "text": "wadiah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "lama"
+    }, {
+      "text": " "
+    }, {
+      "text": "banget"
+    }, {
+      "text": " "
+    }, {
+      "text": "udah"
+    }, {
+      "text": " "
+    }, {
+      "text": "seminggu"
+    }, {
+      "text": " pending"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "uang "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ga masuk masuk ke akun saldo stockbit saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "panduan cleansing portofolio "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jago syariah gimana"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saham non "
+    }, {
+      "text": "des",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " otomatis keblokir di "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " jago "
+    }, {
+      "text": "stockbit",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "pembukaan deposito "
+    }, {
+      "text": "mudharabah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "muthlaqah"
+    }, {
+      "text": " gagal terus di aplikasi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara perpanjang jatuh tempo "
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    }, {
+      "text": " "
+    }, {
+      "text": "saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kena penalti ga kalau saya cairin "
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "sekarang juga"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "bagi hasil",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " deposito "
+    }, {
+      "text": "mudharabah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "kok"
+    }, {
+      "text": " belum masuk "
+    }, {
+      "text": "bulan ini"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara matiin "
+    }, {
+      "text": "aro plus",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " di "
+    }, {
+      "text": "deposito syariah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "biar"
+    }, {
+      "text": " ga perpanjang otomatis"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "eror pas mau bayar "
+    }, {
+      "text": "gofood",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "pake"
+    }, {
+      "text": " "
+    }, {
+      "text": "kantong"
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "akun "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " unlinked otomatis dari bank jago syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "klaim jaminan saldo kembali "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "ditolak"
+    }, {
+      "text": " "
+    }, {
+      "text": "padahal"
+    }, {
+      "text": " "
+    }, {
+      "text": "kena"
+    }, {
+      "text": " "
+    }, {
+      "text": "hack"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saldo "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "ga"
+    }, {
+      "text": " "
+    }, {
+      "text": "sinkron"
+    }, {
+      "text": " "
+    }, {
+      "text": "sama"
+    }, {
+      "text": " "
+    }, {
+      "text": "kantong"
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    }, {
+      "text": " "
+    }, {
+      "text": "saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara ganti "
+    }, {
+      "text": "kantong"
+    }, {
+      "text": " "
+    }, {
+      "text": "utama"
+    }, {
+      "text": " di "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "tabungan"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "scanner "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    }, {
+      "text": " "
+    }, {
+      "text": "eror"
+    }, {
+      "text": " terus ga bisa "
+    }, {
+      "text": "baca barcode"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "struk pembayaran "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ga keluar tapi duit saya udah ilang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "bank jago"
+    }, {
+      "text": " pending "
+    }, {
+      "text": "lama banget"
+    }, {
+      "text": " pas "
+    }, {
+      "text": "mau bayar"
+    }, {
+      "text": " merchant"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saldo terpotong"
+    }, {
+      "text": " "
+    }, {
+      "text": "dua"
+    }, {
+      "text": " kali pas bayar pake "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "scan qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tapi gagal terus di kasir "
+    }, {
+      "text": "toko"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kartu jago",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tidak bisa ditarik "
+    }, {
+      "text": "tunai"
+    }, {
+      "text": " di "
+    }, {
+      "text": "atm"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal aktivasi "
+    }, {
+      "text": "kartu jago",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "baru"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kartu",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "debit"
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    }, {
+      "text": " "
+    }, {
+      "text": "saya"
+    }, {
+      "text": " hilang mau blokir"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "rekening "
+    }, {
+      "text": "jago saya"
+    }, {
+      "text": " pasif dan berubah jadi "
+    }, {
+      "text": "dormant",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ganti nomor hp lewat "
+    }, {
+      "text": "account core",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " luar negeri butuh "
+    }, {
+      "text": "meterai",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " ya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "rekening saya kepotong "
+    }, {
+      "text": "biaya admin",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " account core dormant"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "pembayaran zakat mal"
+    }, {
+      "text": " lewat "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " gagal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau minta bukti setor "
+    }, {
+      "text": "zakat maal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " dari "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "bantu saya hitung nisab emas buat "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara buat link kantong berbagi "
+    }, {
+      "text": "jadi jago com",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saldo "
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "hangus"
+    }, {
+      "text": " karena ga diklaim "
+    }, {
+      "text": "sebulan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "link "
+    }, {
+      "text": "klaim"
+    }, {
+      "text": " cash gift "
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "eror"
+    }, {
+      "text": " "
+    }, {
+      "text": "ga"
+    }, {
+      "text": " bisa dibuka"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "limit harian "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jago berapa ya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kenapa teman saya ga bisa join ke "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau ubah limit spending member di "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "top up "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jago syariah pending"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "rekening "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "wadiah"
+    }, {
+      "text": " saya ga bisa dipake beli saham"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ada kendala compliance "
+    }, {
+      "text": "des",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " di akun "
+    }, {
+      "text": "rdn stockbit"
+    }, {
+      "text": " saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "pencairan "
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jago syariah dipercepat"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau mencairkan saldo "
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " "
+    }, {
+      "text": "mudharabah",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " sebelum jatuh tempo"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cara"
+    }, {
+      "text": " mengubah instruksi aro "
+    }, {
+      "text": "deposito syariah",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "gimana"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " uang gagal tapi saldo berkurang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tolong "
+    }, {
+      "text": "cek"
+    }, {
+      "text": " status "
+    }, {
+      "text": "transfer antar bank",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " saya kok pending"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "dana ga masuk pas "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": ", "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal hubungkan "
+    }, {
+      "text": "kantong jago"
+    }, {
+      "text": " ke "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "pembayaran "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " gagal terus pas mau "
+    }, {
+      "text": "pesen"
+    }, {
+      "text": " "
+    }, {
+      "text": "makanan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "aplikasi "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " saya ga bisa kesinkron sama jago syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "dana terpotong transaksi "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tidak sukses"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "gagal bayar pake "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "jago"
+    }, {
+      "text": " "
+    }, {
+      "text": "syariah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kenapa ya saldo kepotong tapi transaksi "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " gagal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya "
+    }, {
+      "text": "dapet"
+    }, {
+      "text": " masalah pas pake "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " tadi di "
+    }, {
+      "text": "toko"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "pertanyaan "
+    }, {
+      "text": "jago amal",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "link "
+    }, {
+      "text": "kantong berbagi",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "masalah "
+    }, {
+      "text": "kartu jago",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ada keluhan "
+    }, {
+      "text": "account core",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "bantuan untuk "
+    }, {
+      "text": "kantong bersama",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "eror di "
+    }, {
+      "text": "rdn",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "akun "
+    }, {
+      "text": "deposito",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ada masalah di "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kendala di "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ada masalah dengan "
+    }, {
+      "text": "transfer",
+      "parameterId": "chosen_issue",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Oper ke petugas manusia akun jago saya "
+    }, {
+      "text": "locked",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " tiba-tiba"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungkan ke tim keamanan akun ada "
+    }, {
+      "text": "transaksi mencurigakan",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " di kantong saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Panggil customer service jago nomor "
+    }, {
+      "text": "hp jago hilang",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " mau ganti data"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya mau ngomong sama orang asli aplikasi "
+    }, {
+      "text": "tidak bisa login",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungkan ke cs karena "
+    }, {
+      "text": "akun terblokir",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " saya butuh manusia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Oper ke live support kendala tautan akun "
+    }, {
+      "text": "gojek jago",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Panggil orang asli bayar "
+    }, {
+      "text": "gofood",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " pakai jago ga bisa digunakan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungkan ke agen manusia masalah "
+    }, {
+      "text": "jagopay",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " link error terus"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungkan ke cs dong transaksi kantong "
+    }, {
+      "text": "gopay",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " di aplikasi gojek gagal mulu"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau bicara dengan petugas bank jago tentang kantong "
+    }, {
+      "text": "gojek",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungkan ke customer service mengenai kendala kiriman "
+    }, {
+      "text": "kartu jago",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Oper ke live agent status kirim "
+    }, {
+      "text": "kartu fisik",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jago belum datang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya mau bicara dengan orang asli tentang "
+    }, {
+      "text": "lacak kartu",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jago saya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungkan ke cs untuk cek resi "
+    }, {
+      "text": "kartu debit fisik",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " jagoan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Panggil agen untuk masalah "
+    }, {
+      "text": "pengiriman kartu",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " saya yang belum sampai"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Tolong oper ke cs manusia saldo saya hilang karena "
+    }, {
+      "text": "gagal qris",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Panggil live agent uang kepotong pas "
+    }, {
+      "text": "bayar qris",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungkan ke petugas jago masalah double debit transaksi "
+    }, {
+      "text": "qris dispute",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya mau ngomong sama manusia tentang "
+    }, {
+      "text": "scan qris gagal",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " di toko"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungkan ke CS untuk masalah "
+    }, {
+      "text": "qris",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungkan ke cs jagoan karena saldo berkurang pas "
+    }, {
+      "text": "kirim uang",
+      "parameterId": "chosen_issue"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau ngomong ma orang karena "
+    }, {
+      "text": "transfer antar bank",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau bicara sama agen karena dana "
+    }, {
+      "text": "gagal kirim",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " tapi saldo kepotong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungkan ke CS jago dong transaksi "
+    }, {
+      "text": "bi-fast",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": " saya pending"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya masih ga bisa selesaikan masalah "
+    }, {
+      "text": "transfer gagal",
+      "parameterId": "chosen_issue"
+    }, {
+      "text": ", mau ngomong sama manusia aja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bisa bypass bot nya gak? "
+    }, {
+      "text": "Mau"
+    }, {
+      "text": " langsung komplain ke staff."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Ini masalah "
+    }, {
+      "text": "darurat"
+    }, {
+      "text": ", hubungkan ke customer support."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Stop bot, "
+    }, {
+      "text": "saya mau bicara"
+    }, {
+      "text": " sama agent."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Tolong"
+    }, {
+      "text": " transfer sesi chat ini ke live agent segera."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya butuh penanganan manual dari "
+    }, {
+      "text": "tim Jago"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Ganti ke "
+    }, {
+      "text": "manusia aja"
+    }, {
+      "text": ", "
+    }, {
+      "text": "ribet pake bot"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 2,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gak"
+    }, {
+      "text": " membantu "
+    }, {
+      "text": "nih bot nya"
+    }, {
+      "text": ", oper ke orang aja."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Ini urgent, saya "
+    }, {
+      "text": "butuh cs"
+    }, {
+      "text": " "
+    }, {
+      "text": "sekarang"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Panggil admin asli"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Oper ke "
+    }, {
+      "text": "cs dong"
+    }, {
+      "text": " "
+    }, {
+      "text": "min"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bisa "
+    }, {
+      "text": "panggil cs nya"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau "
+    }, {
+      "text": "cs"
+    }, {
+      "text": " jagoan langsung"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambung ke cs"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Admin jago tlg hub cs"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungin customer service"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bisa bcr sm org"
+    }, {
+      "text": " asli?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Cs"
+    }, {
+      "text": " please"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hub ke "
+    }, {
+      "text": "cs dong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Halo admin, mau "
+    }, {
+      "text": "ngomong"
+    }, {
+      "text": " langsung sama orangnya "
+    }, {
+      "text": "dong"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bisa minta "
+    }, {
+      "text": "tolong dioper"
+    }, {
+      "text": " ke admin CS?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gak"
+    }, {
+      "text": " mau chat sama robot, mau sama orang."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Pindahin ke live "
+    }, {
+      "text": "agent dong"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau bicara sama staf "
+    }, {
+      "text": "Jago"
+    }, {
+      "text": ", bisa?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungin ke staf orang asli "
+    }, {
+      "text": "dong"
+    }, {
+      "text": ", "
+    }, {
+      "text": "jangan bot"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau chat sama admin "
+    }, {
+      "text": "Jagoan"
+    }, {
+      "text": " nya langsung."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bisa oper ke "
+    }, {
+      "text": "CS"
+    }, {
+      "text": " aslinya gak?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau "
+    }, {
+      "text": "ngomong"
+    }, {
+      "text": " sama manusia "
+    }, {
+      "text": "aja dong"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya"
+    }, {
+      "text": " mau komplain ke layanan pelanggan resmi."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bagaimana cara menghubungi "
+    }, {
+      "text": "admin Jago"
+    }, {
+      "text": " langsung?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya "
+    }, {
+      "text": "butuh"
+    }, {
+      "text": " bantuan dari customer "
+    }, {
+      "text": "service"
+    }, {
+      "text": " team."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mohon"
+    }, {
+      "text": " hubungkan ke staf "
+    }, {
+      "text": "Bank"
+    }, {
+      "text": " Jago."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bisa beralih ke live chat agent?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya"
+    }, {
+      "text": " ingin berbicara dengan customer specialist."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Sambungkan ke "
+    }, {
+      "text": "petugas"
+    }, {
+      "text": " "
+    }, {
+      "text": "pelayanan pelanggan"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hubungkan saya dengan customer "
+    }, {
+      "text": "service Bank"
+    }, {
+      "text": " "
+    }, {
+      "text": "Jago"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "7d7249a3-48d9-4142-a339-25fd95de0f2b",
+  "displayName": "Onboarding_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please don't worry. Our Onboarding team will assist you directly with the issues you're facing during your initial Bank Jago account registration. Please wait a moment while I transfer this chat." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "onboarding_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Jangan khawatir Kak, kendala hambatan pendaftaran awal akun Jago Kakak akan dibantu langsung secara terarah oleh tim Onboarding kami. Mohon tunggu sesaat sementara saya alihkan obrolan ini." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "onboarding_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

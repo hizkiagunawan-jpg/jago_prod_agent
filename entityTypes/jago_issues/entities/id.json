@@ -1,0 +1,47 @@
+{
+  "entities": [ {
+    "value": "transfer",
+    "synonyms": [ "bi-fast", "bifast", "gagal kirim", "gagal transfer", "kirim uang", "transfer" ],
+    "languageCode": "id"
+  }, {
+    "value": "qris",
+    "synonyms": [ "bayar qris", "qris", "scan qris", "transaksi qris" ],
+    "languageCode": "id"
+  }, {
+    "value": "card",
+    "synonyms": [ "card", "debit card", "kartu", "kartu fisik", "pengiriman kartu" ],
+    "languageCode": "id"
+  }, {
+    "value": "gojek",
+    "synonyms": [ "gofood", "gojek", "gopay", "jagopay" ],
+    "languageCode": "id"
+  }, {
+    "value": "security",
+    "synonyms": [ "akun terblokir", "locked", "login", "security", "terblokir", "terkunci", "tidak bisa login" ],
+    "languageCode": "id"
+  }, {
+    "value": "deposito",
+    "synonyms": [ "aro", "aro off", "aro plus", "bagi hasil", "cairkan deposito", "deposito", "deposito syariah", "liquidate deposit", "mudharabah", "profit sharing", "sharia deposit" ],
+    "languageCode": "id"
+  }, {
+    "value": "rdn",
+    "synonyms": [ "akun stockbit", "capital market", "daftar efek syariah", "des", "des compliance", "pasar modal", "rdn", "rdn syariah", "sharia rdn", "sharia securities list", "stockbit account", "wadi’ah", "wadiah" ],
+    "languageCode": "id"
+  }, {
+    "value": "kantong_bersama",
+    "synonyms": [ "bisa lihat", "bisa pakai", "invite friends", "kantong bersama", "limit kantong", "non-sharia pocket", "pocket limit", "shared pocket", "undang teman" ],
+    "languageCode": "id"
+  }, {
+    "value": "kantong_berbagi",
+    "synonyms": [ "cash gift", "claim link", "gifting pocket", "hadiah kantong", "hadiah pocket", "jadi jago com", "kado uang", "kantong berbagi", "klaim link", "prize pocket" ],
+    "languageCode": "id"
+  }, {
+    "value": "jago_amal",
+    "synonyms": [ "alms", "amalan", "baznas", "charity", "dompet dhuafa", "haul", "jago_amal", "nisab", "rumah zakat", "sedekah", "zakat amal", "zakat maal", "zakat proof" ],
+    "languageCode": "id"
+  }, {
+    "value": "account_core",
+    "synonyms": [ "account_core", "admin fee", "akun pasif", "akun tidak aktif", "biaya admin", "change overseas number", "dormant", "ganti nomor luar negeri", "inactive account", "inactive pocket", "meterai", "nomor luar negeri", "overseas number", "passive account'", "physical stamp", "pocket pasif", "rtgs", "skn" ],
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "ff3acaae-e6ed-48dc-9339-38dc4f069cf5",
+  "displayName": "Kantong_Bersama_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "For issues regarding the IDR 10 million daily limit or member role authorizations in your Sharia Shared Pocket, I will connect you with the Social Banking team. Please wait." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Social_Banking_Desk",
+          "l1_product": "Kantong_Bersama",
+          "l2_category": "Permission_and_Limit_Issues",
+          "sharia_parameter": "Anti_Riba_Boundary_Check"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Untuk kendala limit harian Rp10 juta atau otorisasi peran anggota di Kantong Bersama Syariah, saya akan hubungkan Anda dengan tim Social Banking. Mohon ditunggu." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Social_Banking_Desk",
+          "l1_product": "Kantong_Bersama",
+          "l2_category": "Permission_and_Limit_Issues",
+          "sharia_parameter": "Anti_Riba_Boundary_Check"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "5e4e8b7b-9f2f-4617-b17e-b165ef0b2634",
+  "displayName": "Partner_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Understood. Issues regarding synchronization, loans, or features linking your account to our ecosystem partner applications will be handled directly by our Partner Integration team. Connecting you to the team now." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k26_partner": "$session.params.k26_partner",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "partner_l1",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik Kak, masalah sinkronisasi, pinjaman, atau fitur penghubung dengan aplikasi mitra ekosistem ini akan ditangani langsung oleh tim Partner Integration. Saya hubungkan ke tim sekarang ya Kak." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k26_partner": "$session.params.k26_partner",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "partner_l1",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

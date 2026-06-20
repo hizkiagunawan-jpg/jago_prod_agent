@@ -1,0 +1,97 @@
+{
+  "name": "cfd37fad-63d0-4b6c-8837-39b86946378d",
+  "displayName": "Transfer_Payment_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please enter the destination account details, bank name, amount, and time of the failed transfer or bill payment:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon masukkan detail rekening tujuan, nama bank, nominal, dan waktu kegagalan transfer atau pembayaran tagihan Anda:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k31\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select the balance deduction error type (e.g., Balance Deducted but Funds Not Received):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih jenis kegagalan mutasi saldo (Contoh: Saldo Terpotong Uang Belum Masuk):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Transfer_Payment_Collector_Page",
+    "name": "7ab18e78-6162-42db-97c2-cab162a474ee"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k31\") AND $page.params.k31_result_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k31_result_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Transfer_Payment_Collector_Page",
+    "name": "a347ff0e-3d95-499c-9eff-716218b89122"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "83b1baba-4772-45aa-ba1c-b6e2099fbcb2"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "8a0d6c8d-aed9-4514-95af-2a09ed415981",
+  "displayName": "Gojek_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Understood. Regarding your failed Jago transaction on the Gojek app, I will loop in our third-party integration team for further investigation. Please give us a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Social_Banking_Desk",
+          "l1_product": "Gojek_Ecosystem",
+          "l2_category": "Gopay_Tabungan_Syariah_Link_Failed",
+          "sharia_parameter": "Wadiah_Ecosystem_Validation"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik, Kak. Terkait kendala gagal transaksi Jago di aplikasi Gojek, saya akan hubungkan Kakak ke tim integrasi pihak ketiga kami untuk investigasi lebih lanjut. Mohon tunggu beberapa saat, ya." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Social_Banking_Desk",
+          "l1_product": "Gojek_Ecosystem",
+          "l2_category": "Gopay_Tabungan_Syariah_Link_Failed",
+          "sharia_parameter": "Wadiah_Ecosystem_Validation"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

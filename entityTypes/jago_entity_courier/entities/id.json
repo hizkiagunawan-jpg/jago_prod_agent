@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Sicepat",
+    "synonyms": [ "Si Cepat", "Sicepat", "SiCepat", "Sicepat Express" ],
+    "languageCode": "id"
+  }, {
+    "value": "Ninja",
+    "synonyms": [ "Ninja", "Ninja Express", "Ninja Van", "Ninja Xpress" ],
+    "languageCode": "id"
+  }, {
+    "value": "JNT",
+    "synonyms": [ "J and T", "J\u0026T", "J\u0026T Express", "JNT", "JNT Express" ],
+    "languageCode": "id"
+  } ]
+}

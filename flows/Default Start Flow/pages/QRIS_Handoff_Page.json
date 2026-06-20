@@ -1,0 +1,42 @@
+{
+  "name": "a2b25078-1c30-4c48-8491-b6fd45669237",
+  "displayName": "QRIS_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "We sincerely apologize for the inconvenience. I am transferring this chat to the Jago QRIS Dispute team to check your deducted balance. Please hold on, an agent will be with you shortly." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Operations",
+          "l1_product": "E_Wallet_QRIS",
+          "l2_category": "QRIS_General_Inquiry",
+          "sharia_parameter": "Wadiah_Linked_Pocket"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Mohon maaf atas ketidaknyamanannya, Kak. Saya akan langsung meneruskan percakapan ini ke tim Jago QRIS Dispute untuk memeriksa saldo yang terpotong di toko tersebut. Mohon ditunggu sebentar, petugas kami akan segera membantu." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Operations",
+          "l1_product": "E_Wallet_QRIS",
+          "l2_category": "QRIS_General_Inquiry",
+          "sharia_parameter": "Wadiah_Linked_Pocket"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "4ccbbb70-1e7e-4df9-8721-e0abb8eac501",
+  "displayName": "KYC_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please specify which profile information or identity document (e-KTP/NPWP) you wish to update:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon sebutkan data profil atau identitas e-KTP/NPWP Kakak yang ingin dilakukan pengkinian data:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k31\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select your identity document update status:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih status pembaharuan dokumen identitas Kakak:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "KYC_Collector_Page",
+    "name": "c7328495-02dd-4d3c-b7c0-bf95f3d23b4b"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k31\") AND $page.params.k31_result_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k31_result_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "KYC_Collector_Page",
+    "name": "c774d31e-2637-472f-8113-8c9325268a91"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "9957eef7-c848-47ae-b324-e71eb033f46f"
+  } ]
+}

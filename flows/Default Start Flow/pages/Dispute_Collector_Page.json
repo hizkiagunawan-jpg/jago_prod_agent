@@ -1,0 +1,97 @@
+{
+  "name": "5c10558f-84e2-4376-bdbb-b277a0df6036",
+  "displayName": "Dispute_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please provide a detailed timeline of your transaction dispute issue:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon jelaskan detail kronologi kendala transaksi sanggahan (dispute) Kakak secara terperinci:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k31\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please confirm the final status of the transaction you wish to dispute:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Silakan konfirmasi status akhir transaksi yang ingin disanggah:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Dispute_Collector_Page",
+    "name": "2bc0cccb-4e7d-4fe5-9f76-bd2c505754a3"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k31\") AND $page.params.k31_result_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k31_result_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "Dispute_Collector_Page",
+    "name": "1bb126f5-8530-4bd0-be4c-316c14640bf0"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "aca07670-c03b-4bb8-9b91-cce0c69ffcf8"
+  } ]
+}

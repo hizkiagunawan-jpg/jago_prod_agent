@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Kartu Belum Sampai-Over SLA",
+    "synonyms": [ "kartu belum sampai", "Kartu Belum Sampai-Over SLA", "kartu lama", "kartu telat", "over sla" ],
+    "languageCode": "id"
+  }, {
+    "value": "Lost Card",
+    "synonyms": [ "kartu dicuri", "kartu hilang", "kehilangan kartu", "lost card", "Lost Card" ],
+    "languageCode": "id"
+  }, {
+    "value": "Outbound Call Customer",
+    "synonyms": [ "ditelepon cs", "outbound call", "Outbound Call Customer", "konfirmasi telepon" ],
+    "languageCode": "id"
+  } ]
+}

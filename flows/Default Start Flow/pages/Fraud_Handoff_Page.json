@@ -1,0 +1,58 @@
+{
+  "name": "a0aa3186-fbe3-40cd-9a58-a162877bd4bd",
+  "displayName": "Fraud_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Your account security is our top priority. I am escalating this report of potential fraud or unauthorized access directly to our Fraud Security team with the highest priority for immediate action. Please wait a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "fraud_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Keamanan akun Kakak adalah prioritas utama kami. Laporan indikasi penipuan atau akses tidak dikenal ini akan langsung saya alihkan ke tim Keamanan Fraud secara prioritas utama untuk penanganan cepat. Mohon tunggu sebentar." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "fraud_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

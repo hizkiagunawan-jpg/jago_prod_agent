@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Bibit",
+    "synonyms": [ "Bibit", "bibit aplikasi", "investasi bibit", "reksa dana bibit" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gojek",
+    "synonyms": [ "go-jek", "Gojek", "gojek app", "gopay", "kantong gojek" ],
+    "languageCode": "id"
+  }, {
+    "value": "Tokopedia",
+    "synonyms": [ "belanja tokopedia", "kantong tokopedia", "Tokopedia", "tokped" ],
+    "languageCode": "id"
+  }, {
+    "value": "RDN",
+    "synonyms": [ "akun rdn", "RDN", "rdn jago", "rekening dana nasabah" ],
+    "languageCode": "id"
+  } ]
+}

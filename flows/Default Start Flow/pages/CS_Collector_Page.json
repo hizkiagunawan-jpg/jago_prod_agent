@@ -1,0 +1,97 @@
+{
+  "name": "ea46e7b0-4cc4-4f17-8819-38fbf497799a",
+  "displayName": "CS_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please describe the specific issue or question you would like to ask our CS team:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Silakan jelaskan detail kendala umum atau pertanyaan yang ingin Kakak tanyakan kepada tim CS kami:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k31\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select your report handover status type (Delivery Cancelled / Failed to Deliver):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih jenis hasil penyerahan status laporan Kakak (Batal Pengiriman / Gagal Dikirim):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "CS_Collector_Page",
+    "name": "e22ce04c-9cb7-4fcf-a8a7-0647b23faa89"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k31\") AND $page.params.k31_result_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k31_result_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "CS_Collector_Page",
+    "name": "2c35ea12-1491-47ba-a6db-05706adeccc4"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "733fa71a-20ff-4641-bf32-b3eb8bedd68f"
+  } ]
+}

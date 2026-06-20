@@ -1,0 +1,42 @@
+{
+  "name": "06d08107-a8cc-413e-b33b-4f88bfe0acb5",
+  "displayName": "Account_Core_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Alright Jagoan, you will be connected with the Core Operations Team to assist with dormant account fee reversals under the May 2026 policy, BI-FAST limits, or the overseas phone number change procedure using a physical stamp." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Operations",
+          "l1_product": "Account_Management",
+          "l2_category": "Dormant_Policy_and_Clearance_Rails",
+          "sharia_parameter": "May_2026_Policy_Revision"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik Jagoan, Anda akan tersambung dengan Tim Core Operations untuk membantu kendala pembalikan biaya akun dormant kebijakan Mei 2026, limit akun, atau prosedur penggantian nomor HP luar negeri menggunakan meterai." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "CS_Operations",
+          "l1_product": "Account_Management",
+          "l2_category": "Dormant_Policy_and_Clearance_Rails",
+          "sharia_parameter": "May_2026_Policy_Revision"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

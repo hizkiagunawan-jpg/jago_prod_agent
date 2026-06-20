@@ -1,0 +1,58 @@
+{
+  "name": "b55bb861-45b9-47bc-9422-e1e0eb5ce0b6",
+  "displayName": "Dispute_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I have successfully recorded your transaction dispute details. I will immediately connect you with our Financial Dispute team so they can investigate your balance or transfer issue. Please hold on for a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "dispute_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Detail sanggahan transaksi Kakak sudah saya catat dengan baik. Saya akan segera menghubungkan Kakak dengan tim Dispute Keuangan agar kendala saldo atau transfer ini bisa diinvestigasi. Mohon tunggu sesaat ya Kak." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "dispute_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

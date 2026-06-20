@@ -1,0 +1,138 @@
+{
+  "name": "df03f8f1-9eb8-480e-b16b-0b1c02d09dd6",
+  "displayName": "CDD_Collector_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "k13_decision_slot",
+      "required": true,
+      "entityType": "@jago_entity_decision",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k13\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select the status decision of your data verification (Blocked, Declined, or KTP BO):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Pilih keputusan status verifikasi data Kakak (Blocked, Declined, atau KTP BO):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"k26\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please select the integrated ecosystem partner application (e.g., Bibit, Gojek, Tokopedia):" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon pilih mitra ekosistem aplikasi yang terintegrasi (Contoh: Bibit, Gojek, Tokopedia):" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "conditionalCases": [ {
+            "cases": [ {
+              "condition": "$session.params.required_fields AND CONTAINS AND \"s24\"",
+              "caseContent": [ {
+                "message": {
+                  "text": {
+                    "text": [ "Please explain the detailed timeline or issue regarding your compliance data review:" ]
+                  },
+                  "languageCode": "en"
+                }
+              }, {
+                "message": {
+                  "text": {
+                    "text": [ "Mohon jelaskan kronologi detail atau kendala terkait peninjauan data kepatuhan Anda:" ]
+                  },
+                  "languageCode": "id"
+                }
+              } ]
+            } ]
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k13\") AND $page.params.k13_decision_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "CDD_Collector_Page",
+    "name": "0ecc087c-2e8b-436a-bb29-d6089961b50d"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"k26\") AND $page.params.k26_partner_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k26_partner_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "CDD_Collector_Page",
+    "name": "0d1cd3c1-f6d6-4b70-b1b7-5bef738da5a5"
+  }, {
+    "condition": "NOT ($session.params.required_fields AND CONTAINS AND \"s24\") AND $page.params.s24_remarks_slot = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks_slot",
+        "value": "SKIPPED"
+      } ]
+    },
+    "targetPage": "CDD_Collector_Page",
+    "name": "47267b83-780f-4fd8-b5e4-c73baef71b4a"
+  }, {
+    "condition": "$page.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision",
+        "value": "$page.params.k13_decision_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "CDD_Handoff_Page",
+    "name": "b04e3e04-19eb-4c57-b842-04335339fd0c"
+  } ]
+}

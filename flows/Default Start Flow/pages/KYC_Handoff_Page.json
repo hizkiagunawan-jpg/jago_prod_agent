@@ -1,0 +1,60 @@
+{
+  "name": "b8a5448e-fbc3-4576-93a2-c2078728641f",
+  "displayName": "KYC_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "All right, I have received your profile update details and identity document request. I am now connecting you to our KYC Verification team to process your documents. Please wait a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "kyc_team",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik Kak, data pengkinian profil serta keluhan dokumen identitas Kakak sudah saya terima. Sekarang saya hubungkan Kakak ke tim verifikasi KYC untuk penyelesaian berkas data Anda. Mohon tunggu sebentar ya." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k31_result": "$session.params.k31_result",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "kyc_team",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

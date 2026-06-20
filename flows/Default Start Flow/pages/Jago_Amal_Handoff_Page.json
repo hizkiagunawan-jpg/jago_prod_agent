@@ -1,0 +1,42 @@
+{
+  "name": "a231eec3-36c7-4809-8604-ebb0d609d3d5",
+  "displayName": "Jago_Amal_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I will connect you with the Jago Amal desk to assist with your Zakat Maal Nisab and Haul calculations, or to synchronize your Zakat Payment Proof with BAZNAS/Rumah Zakat." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Islamic_Philanthropy_Amal",
+          "l1_product": "Jago_Amal",
+          "l2_category": "Zakat_Nisab_Haul_Calculation",
+          "sharia_parameter": "Wakalah_Contract_Gating"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Saya akan menghubungkan Anda dengan Amil desk Jago Amal untuk membantu perhitungan Nisab dan Haul Zakat Maal Anda, atau sinkronisasi Bukti Setor Zakat dengan BAZNAS/Rumah Zakat." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Islamic_Philanthropy_Amal",
+          "l1_product": "Jago_Amal",
+          "l2_category": "Zakat_Nisab_Haul_Calculation",
+          "sharia_parameter": "Wakalah_Contract_Gating"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

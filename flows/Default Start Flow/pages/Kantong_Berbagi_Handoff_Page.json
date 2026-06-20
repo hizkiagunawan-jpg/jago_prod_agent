@@ -1,0 +1,42 @@
+{
+  "name": "47ae5a6b-4acc-4c88-97cf-984c2986a0f2",
+  "displayName": "Kantong_Berbagi_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please hold on, I will transfer you to our e-gifting operations team to track your jadi.jago.com link claim or cancel an expired gift pocket balance." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Social_Banking_Desk",
+          "l1_product": "Kantong_Berbagi",
+          "l2_category": "Gifting_Link_Expiration_Claim",
+          "sharia_parameter": "Hibah_Contract_Validation"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Mohon tunggu, saya akan meneruskan Anda ke tim operasional e-gifting untuk melacak klaim link jadi.jago.com Anda atau pembatalan saldo kado yang kedaluwarsa." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "action": "HUMAN_ESCALATION",
+          "l0_team": "Social_Banking_Desk",
+          "l1_product": "Kantong_Berbagi",
+          "l2_category": "Gifting_Link_Expiration_Claim",
+          "sharia_parameter": "Hibah_Contract_Validation"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "3ca0cafa-1a14-477c-8107-e1353a825d40",
+  "displayName": "IT_Helpdesk_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "We deeply apologize for the inconvenience. I will pass your application error and technical notes directly to our IT Helpdesk team so our engineers can investigate and fix it. Connecting you now." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "tech_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Mohon maaf banget atas ketidaknyamanannya Kak. Catatan error aplikasi dan teknis ini akan saya serahkan langsung ke tim IT Helpdesk kami agar segera diperiksa dan diperbaiki oleh tim engineer. Hubungkan sekarang ya." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "tech_l1",
+          "L0_TEAM": "CS",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla_tag",
+          "TAG1": "$session.params.sla_tag",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}
